@@ -1,0 +1,8 @@
+<suite name="Suite1" parallel="tests">
+	<test name="Login Test" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.facebook.pom.testcases.LoginTest" />
+		</classes>
+	</test>
+</suite>
+
