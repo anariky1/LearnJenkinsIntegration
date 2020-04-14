@@ -68,7 +68,8 @@ public class BaseTest {
 							e.printStackTrace();
 						}
 		}
-		
+		System.out.println("**********************");
+		System.out.println("Reading from Jenkins......"+System.getProperty("implicitWait"));
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		test.log(LogStatus.INFO, "Opened browser successfully : " +bType);
